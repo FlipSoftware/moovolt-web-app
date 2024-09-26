@@ -146,39 +146,39 @@ export default defineConfig({
   theme: {
     colors: {
       border: "hsl(var(--border))",
-      input: "hsl(var(--input))",
-      ring: "hsl(var(--ring) / .5)",
-      background: "hsl(var(--background) / .66)",
+      input: "hsl(var(--input) / .50)",
+      ring: "hsl(var(--ring) / .50)",
+      background: "hsl(var(--background) / .90)",
       foreground: "hsl(var(--foreground))",
       primary: {
-        DEFAULT: "hsl(var(--primary))",
+        DEFAULT: "hsl(var(--primary) / .90)",
         dim: "hsl(var(--primary-dim))",
         foreground: "hsl(var(--primary-foreground))",
       },
       secondary: {
-        DEFAULT: "hsl(var(--secondary))",
-        dim: "hsl(var(--secondary-dim))",
+        DEFAULT: "hsl(var(--secondary) / .90)",
+        dim: "hsl(var(--secondary-dim) / .90)",
         foreground: "hsl(var(--secondary-foreground))",
       },
       destructive: {
-        DEFAULT: "hsl(var(--destructive))",
-        dim: "hsl(var(--destructive-dim))",
+        DEFAULT: "hsl(var(--destructive) / .90)",
+        dim: "hsl(var(--destructive-dim) / .90)",
         foreground: "hsl(var(--destructive-foreground))",
       },
       muted: {
-        DEFAULT: "hsl(var(--muted))",
+        DEFAULT: "hsl(var(--muted) / .25)",
         foreground: "hsl(var(--muted-foreground))",
       },
       accent: {
-        DEFAULT: "hsl(var(--accent))",
+        DEFAULT: "hsl(var(--accent) / .25)",
         foreground: "hsl(var(--accent-foreground))",
       },
       popover: {
-        DEFAULT: "hsl(var(--popover) / .66)",
+        DEFAULT: "hsl(var(--popover))",
         foreground: "hsl(var(--popover-foreground))",
       },
       card: {
-        DEFAULT: "hsl(var(--card) / .66)",
+        DEFAULT: "hsl(var(--card) / .25)",
         foreground: "hsl(var(--card-foreground))",
       },
       success: {
