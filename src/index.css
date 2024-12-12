@@ -109,8 +109,14 @@
 }
 @layer base {
   *:not(div) {
-    background-image: linear-gradient(to bottom right)
-    @apply !transition-[background-color,outline,border,transform,translate,width,height] !duration-300 !ease-in-out;
+    background-image:
+      linear-gradient(to bottom right) @apply !transition-[background-color,
+      outline,
+      border,
+      transform,
+      translate,
+      width,
+      height] !duration-300 !ease-in-out;
   }
   div {
     @apply !transition-[background-color,outline,border,width,height] !duration-300 !ease-in-out;

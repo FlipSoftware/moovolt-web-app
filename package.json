@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "format:check": "prettier --loglevel warn --check \"src/**/*.{jsx,js,ts,tsx}\"",
-    "format": "prettier --loglevel warn --write \"src/**/*.{jsx,js,ts,tsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "format:check": "prettier --log-level warn --check \"src/**/*.{jsx,js,ts,tsx}\"",
+    "format": "prettier --log-level error --write \"src/**/*.{jsx,js,ts,tsx}\"",
     "preview": "vite preview"
   },
   "dependencies": {
