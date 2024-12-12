@@ -11,9 +11,25 @@
 }
 
 div {
-  -webkit-transition-property: background-color, border-color, color, fill, stroke, opacity, -webkit-box-shadow;
-  -o-transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow;
-  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, -webkit-box-shadow;
+  -webkit-transition-property:
+    background-color,
+    border-color,
+    color,
+    fill,
+    stroke,
+    opacity,
+    -webkit-box-shadow;
+  -o-transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow;
+  transition-property:
+    background-color,
+    border-color,
+    color,
+    fill,
+    stroke,
+    opacity,
+    box-shadow,
+    -webkit-box-shadow;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

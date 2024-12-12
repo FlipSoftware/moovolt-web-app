@@ -1,20 +1,14 @@
 import * as React from "react";
 import {
   AudioWaveform,
-  History,
-  Bot,
   Command,
-  Frame,
   Map,
-  PieChart,
-  Settings2,
   Home,
 } from "lucide-react";
 
 import { NavMain } from "@/components/nav-main";
 import { NavMap } from "@/components/nav-projects";
 import { NavUser } from "@/components/nav-user";
-import { TeamSwitcher } from "@/components/team-switcher";
 import {
   Sidebar,
   SidebarContent,

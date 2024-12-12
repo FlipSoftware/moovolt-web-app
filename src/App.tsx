@@ -1,5 +1,4 @@
 import { AppSidebar } from "@/components/app-sidebar";
-import { Separator } from "@/components/ui/separator";
 import {
   SidebarInset,
   SidebarProvider,
@@ -10,8 +9,6 @@ import { DarkModeToggle } from "./components/darkmode-toggle";
 import DashboardPage from "./pages/DashboardPage";
 import { Search } from "./components/search";
 import { UserNav } from "./components/user-nav";
-import FinancePage from "./pages/FinancePage";
-import { useEffect, useState } from "react";
 
 function NavHeader() {
   const { state, isMobile } = useSidebar();
@@ -23,10 +20,10 @@ function NavHeader() {
           isMobile
             ? "w-[100vw]"
             : state === "expanded"
-            ? "w-[calc(100vw-var(--sidebar-width))]"
-            : state === "collapsed"
-            ? "w-[calc(100vw-var(--sidebar-width-icon))]"
-            : "w-[calc(100vw-var(--sidebar-width-icon))]"
+              ? "w-[calc(100vw-var(--sidebar-width))]"
+              : state === "collapsed"
+                ? "w-[calc(100vw-var(--sidebar-width-icon))]"
+                : "w-[calc(100vw-var(--sidebar-width-icon))]"
         } flex top-0 left-0 shrink-0 items-center gap-2 px-4 backdrop-blur`}
       >
         <SidebarTrigger className="-ml-1" />
